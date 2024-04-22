@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7117E4CF2BD5DF9A00A1DBF4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7117E4CE2BD5DF9A00A1DBF4 /* SettingsView.swift */; };
 		7165C4CF2BBC8B7200F68D47 /* MomentoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4CE2BBC8B7200F68D47 /* MomentoApp.swift */; };
-		7165C4D12BBC8B7200F68D47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4D02BBC8B7200F68D47 /* ContentView.swift */; };
+		7165C4D12BBC8B7200F68D47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4D02BBC8B7200F68D47 /* LoginView.swift */; };
 		7165C4D32BBC8B7500F68D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7165C4D22BBC8B7500F68D47 /* Assets.xcassets */; };
 		7165C4D62BBC8B7500F68D47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7165C4D52BBC8B7500F68D47 /* Preview Assets.xcassets */; };
 		7165C4E02BBC8B7500F68D47 /* MomentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4DF2BBC8B7500F68D47 /* MomentoTests.swift */; };
 		7165C4EA2BBC8B7500F68D47 /* MomentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4E92BBC8B7500F68D47 /* MomentoUITests.swift */; };
 		7165C4EC2BBC8B7500F68D47 /* MomentoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7165C4EB2BBC8B7500F68D47 /* MomentoUITestsLaunchTests.swift */; };
+		7165C4F92BBC8EE000F68D47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7165C4F82BBC8EE000F68D47 /* GoogleService-Info.plist */; };
+		7165C4FC2BBC8F8800F68D47 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7165C4FB2BBC8F8800F68D47 /* FirebaseAnalytics */; };
+		7165C4FE2BBC8F8800F68D47 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7165C4FD2BBC8F8800F68D47 /* FirebaseAuth */; };
+		7165C5002BBC8F8800F68D47 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7165C4FF2BBC8F8800F68D47 /* FirebaseFirestore */; };
+		7165C5022BBC8F8800F68D47 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7165C5012BBC8F8800F68D47 /* FirebaseStorage */; };
+		71ADF8A92BD5D53D005FEF72 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ADF8A82BD5D53D005FEF72 /* AuthService.swift */; };
+		71ADF8AB2BD5DBA1005FEF72 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ADF8AA2BD5DBA1005FEF72 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7117E4CE2BD5DF9A00A1DBF4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7165C4CB2BBC8B7200F68D47 /* Momento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7165C4CE2BBC8B7200F68D47 /* MomentoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentoApp.swift; sourceTree = "<group>"; };
-		7165C4D02BBC8B7200F68D47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7165C4D02BBC8B7200F68D47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7165C4D22BBC8B7500F68D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7165C4D52BBC8B7500F68D47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7165C4DB2BBC8B7500F68D47 /* MomentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,9 @@
 		7165C4E52BBC8B7500F68D47 /* MomentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7165C4E92BBC8B7500F68D47 /* MomentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentoUITests.swift; sourceTree = "<group>"; };
 		7165C4EB2BBC8B7500F68D47 /* MomentoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7165C4F82BBC8EE000F68D47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71ADF8A82BD5D53D005FEF72 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		71ADF8AA2BD5DBA1005FEF72 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7165C4FC2BBC8F8800F68D47 /* FirebaseAnalytics in Frameworks */,
+				7165C5022BBC8F8800F68D47 /* FirebaseStorage in Frameworks */,
+				7165C4FE2BBC8F8800F68D47 /* FirebaseAuth in Frameworks */,
+				7165C5002BBC8F8800F68D47 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +110,14 @@
 		7165C4CD2BBC8B7200F68D47 /* Momento */ = {
 			isa = PBXGroup;
 			children = (
+				7165C4F82BBC8EE000F68D47 /* GoogleService-Info.plist */,
 				7165C4CE2BBC8B7200F68D47 /* MomentoApp.swift */,
-				7165C4D02BBC8B7200F68D47 /* ContentView.swift */,
+				7165C4D02BBC8B7200F68D47 /* LoginView.swift */,
 				7165C4D22BBC8B7500F68D47 /* Assets.xcassets */,
 				7165C4D42BBC8B7500F68D47 /* Preview Content */,
+				71ADF8A82BD5D53D005FEF72 /* AuthService.swift */,
+				71ADF8AA2BD5DBA1005FEF72 /* ProfileView.swift */,
+				7117E4CE2BD5DF9A00A1DBF4 /* SettingsView.swift */,
 			);
 			path = Momento;
 			sourceTree = "<group>";
@@ -143,6 +163,12 @@
 			dependencies = (
 			);
 			name = Momento;
+			packageProductDependencies = (
+				7165C4FB2BBC8F8800F68D47 /* FirebaseAnalytics */,
+				7165C4FD2BBC8F8800F68D47 /* FirebaseAuth */,
+				7165C4FF2BBC8F8800F68D47 /* FirebaseFirestore */,
+				7165C5012BBC8F8800F68D47 /* FirebaseStorage */,
+			);
 			productName = Momento;
 			productReference = 7165C4CB2BBC8B7200F68D47 /* Momento.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 7165C4C22BBC8B7200F68D47;
+			packageReferences = (
+				7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7165C4CC2BBC8B7200F68D47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +262,7 @@
 			files = (
 				7165C4D62BBC8B7500F68D47 /* Preview Assets.xcassets in Resources */,
 				7165C4D32BBC8B7500F68D47 /* Assets.xcassets in Resources */,
+				7165C4F92BBC8EE000F68D47 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7165C4D12BBC8B7200F68D47 /* ContentView.swift in Sources */,
+				7117E4CF2BD5DF9A00A1DBF4 /* SettingsView.swift in Sources */,
+				71ADF8AB2BD5DBA1005FEF72 /* ProfileView.swift in Sources */,
+				71ADF8A92BD5D53D005FEF72 /* AuthService.swift in Sources */,
+				7165C4D12BBC8B7200F68D47 /* LoginView.swift in Sources */,
 				7165C4CF2BBC8B7200F68D47 /* MomentoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +621,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7165C4FB2BBC8F8800F68D47 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7165C4FD2BBC8F8800F68D47 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7165C4FF2BBC8F8800F68D47 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7165C5012BBC8F8800F68D47 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7165C4FA2BBC8F8800F68D47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7165C4C32BBC8B7200F68D47 /* Project object */;
 }
